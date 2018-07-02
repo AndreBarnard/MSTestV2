@@ -44,7 +44,7 @@
   <ItemGroup>
     <Compile Include="BossEnemy.cs" />
     <Compile Include="Enemy.cs" />
-    <Compile Include="EnemyCreationExeption.cs" />
+    <Compile Include="EnemyCreationException.cs" />
     <Compile Include="EnemyFactor.cs" />
     <Compile Include="GameState.cs" />
     <Compile Include="NonPlayerCharacter.cs" />

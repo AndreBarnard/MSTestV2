@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BossEnemyShould.cs" />
+    <Compile Include="EnemyFactorShould.cs" />
     <Compile Include="PlayerCharacterShould.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

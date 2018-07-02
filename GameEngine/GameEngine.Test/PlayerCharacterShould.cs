@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Text.RegularExpressions;
+using System.Linq;
 
 namespace GameEngine.Test
 {
@@ -126,6 +127,79 @@ namespace GameEngine.Test
 
 		}
 
+		[TestMethod]
+		public void HaveALongBow()
+		{
+			var sut = new PlayerCharacter();
 
+			CollectionAssert.Contains(sut.Weapons, "Long Bow");
+		}
+
+
+		[TestMethod]
+		public void NotHaveAStaffOfWonder()
+		{
+			var sut = new PlayerCharacter();
+
+			CollectionAssert.DoesNotContain(sut.Weapons, "Staff Of Wonder");
+		}
+
+		[TestMethod]
+		public void HaveAllExpectedWeapons()
+		{
+			var sut = new PlayerCharacter();
+
+			var expectedWeapons = new[]
+			{
+				"Long Bow",
+				"Short Bow",
+				"Short Sword"
+			};
+
+			CollectionAssert.AreEqual(expectedWeapons,sut.Weapons);
+		}
+
+		[TestMethod]
+		public void HaveAllExpectedWeapons_AnyOrder()
+		{
+			var sut = new PlayerCharacter();
+
+			var expectedWeapons = new[]
+			{
+				"Short Bow",
+				"Long Bow",				
+				"Short Sword"
+			};
+
+			CollectionAssert.AreEquivalent(expectedWeapons, sut.Weapons);
+		}
+
+
+		[TestMethod]
+		public void HaveNoDupicateWeapons()
+		{
+			var sut = new PlayerCharacter();
+
+			CollectionAssert.AllItemsAreUnique(sut.Weapons);
+		}
+
+
+		[TestMethod]
+		public void HaveAtLeaseOneKindOfSword()
+		{
+			var sut = new PlayerCharacter();
+
+			Assert.IsTrue(sut.Weapons.Any(weapon => weapon.Contains("Sword")));
+			//custon assert later
+		}
+
+		[TestMethod]
+		public void HaveNoEmptyDefaultWeapons()
+		{
+			var sut = new PlayerCharacter();
+
+			Assert.IsFalse(sut.Weapons.Any(weapon => string.IsNullOrWhiteSpace(weapon)));
+			//custon assert later
+		}
 	}
 }

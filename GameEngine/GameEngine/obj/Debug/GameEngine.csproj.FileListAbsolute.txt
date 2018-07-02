@@ -3,3 +3,9 @@ C:\Dev\MSTestV2\GameEngine\GameEngine\bin\Debug\GameEngine_1.exe
 C:\Dev\MSTestV2\GameEngine\GameEngine\bin\Debug\GameEngine_1.pdb
 C:\Dev\MSTestV2\GameEngine\GameEngine\obj\Debug\GameEngine_1.exe
 C:\Dev\MSTestV2\GameEngine\GameEngine\obj\Debug\GameEngine_1.pdb
+C:\Dev\MSTestV2\MSTestV2\GameEngine\GameEngine\bin\Debug\GameEngine_1.exe.config
+C:\Dev\MSTestV2\MSTestV2\GameEngine\GameEngine\bin\Debug\GameEngine_1.exe
+C:\Dev\MSTestV2\MSTestV2\GameEngine\GameEngine\bin\Debug\GameEngine_1.pdb
+C:\Dev\MSTestV2\MSTestV2\GameEngine\GameEngine\obj\Debug\GameEngine.csprojResolveAssemblyReference.cache
+C:\Dev\MSTestV2\MSTestV2\GameEngine\GameEngine\obj\Debug\GameEngine_1.exe
+C:\Dev\MSTestV2\MSTestV2\GameEngine\GameEngine\obj\Debug\GameEngine_1.pdb

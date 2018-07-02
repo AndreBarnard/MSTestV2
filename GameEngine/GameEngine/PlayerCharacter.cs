@@ -42,7 +42,14 @@ namespace GameEngine
 
 		private void CreateStartingWeapons()
 		{
-			
+			Weapons = new List<string>
+			{
+				"Long Bow",
+				"Short Bow",
+				"Short Sword"
+				//""
+				//"Staff of Wonder",
+			};
 		}
 		public void Sleep()
 		{
