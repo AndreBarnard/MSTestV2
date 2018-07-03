@@ -50,12 +50,17 @@
   <ItemGroup>
     <Compile Include="Assembly.cs" />
     <Compile Include="BossEnemyShould.cs" />
+    <Compile Include="DamageData.cs" />
     <Compile Include="EnemyFactorShould.cs" />
+    <Compile Include="ExternalHealthDamageTestData.cs" />
     <Compile Include="Lifecycle.cs" />
     <Compile Include="PlayerCharacterShould.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Damage.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
