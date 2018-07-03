@@ -25,6 +25,5 @@ C:\Dev\MSTestV2\MSTestV2\GameEngine\GameEngine.Test\bin\Debug\GameEngine_1.pdb
 C:\Dev\MSTestV2\MSTestV2\GameEngine\GameEngine.Test\bin\Debug\GameEngine_1.exe.config
 C:\Dev\MSTestV2\MSTestV2\GameEngine\GameEngine.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 C:\Dev\MSTestV2\MSTestV2\GameEngine\GameEngine.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
-C:\Dev\MSTestV2\MSTestV2\GameEngine\GameEngine.Test\obj\Debug\GameEngine.Test.csprojResolveAssemblyReference.cache
 C:\Dev\MSTestV2\MSTestV2\GameEngine\GameEngine.Test\obj\Debug\GameEngine.Test.dll
 C:\Dev\MSTestV2\MSTestV2\GameEngine\GameEngine.Test\obj\Debug\GameEngine.Test.pdb

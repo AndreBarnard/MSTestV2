@@ -48,8 +48,10 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assembly.cs" />
     <Compile Include="BossEnemyShould.cs" />
     <Compile Include="EnemyFactorShould.cs" />
+    <Compile Include="Lifecycle.cs" />
     <Compile Include="PlayerCharacterShould.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
