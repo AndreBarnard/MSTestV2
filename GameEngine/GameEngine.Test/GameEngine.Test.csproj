@@ -50,6 +50,9 @@
   <ItemGroup>
     <Compile Include="Assembly.cs" />
     <Compile Include="BossEnemyShould.cs" />
+    <Compile Include="CSVDataSourceAttribute.cs" />
+    <Compile Include="CustomAsserts.cs" />
+    <Compile Include="CustomCategories.cs" />
     <Compile Include="DamageData.cs" />
     <Compile Include="EnemyFactorShould.cs" />
     <Compile Include="ExternalHealthDamageTestData.cs" />
